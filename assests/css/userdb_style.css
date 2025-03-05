@@ -1,0 +1,111 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333;
+}
+
+.navbar {
+    
+    background-color: #cbdbd5;
+    color: #0a0a0a;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1em;
+
+}
+
+.navbar a {
+color: #151414;
+text-decoration: none;
+margin-left: 15px;
+}
+
+.welcome {
+    font-weight: bold;
+    font-size: 1.2em;
+    color:#007bff;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+
+.sidebar {
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar h2 {
+    color: #007bff;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 10px 0;
+}
+
+.main-content {
+    width: 65%;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.main-content h2 {
+    color: #007bff;
+}
+
+.main-content .actions {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.action-card {
+    width: 48%;
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.action-card a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.action-card a:hover {
+    color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

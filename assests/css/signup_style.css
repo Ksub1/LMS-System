@@ -1,0 +1,86 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/signup.jpg');
+    background-size: cover;
+    color: #acb3af;
+}
+
+.navbar {
+    
+    background-color: #cbdbd5;
+    color: #0a0a0a;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1em;
+
+}
+
+.navbar a {
+color: #151414;
+text-decoration: none;
+margin-left: 15px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(47, 33, 33, 0.8);
+    padding: 30px;
+}
+
+
+.signup-form {
+    width: 500px;
+    padding: 25px;
+    background-color: rgba(244, 240, 240, 0.9);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.signup-form h2 {
+    margin-bottom: 20px;
+    color: #100f0f;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"],
+.signup-form input[type="tel"],
+.signup-form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signup-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

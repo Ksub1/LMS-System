@@ -1,0 +1,152 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333;
+}
+
+.navbar {
+
+background-color: #cbdbd5;
+color: #0a0a0a;
+padding: 15px 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-size: 1.1em;
+
+}
+.welcome {
+    font: size 1.5em;
+    font-weight: bold;
+    color: #d38c12;
+    }
+    
+
+
+    .navbar a {
+    color: #151414;
+    text-decoration: none;
+    margin-left: 15px;
+}
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+      
+        
+        /* Main Container */
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 30px;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 25%;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .sidebar h2 {
+            color: #007bff;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar li {
+            margin: 10px 0;
+        }
+
+        /* Main Content */
+        .main-content {
+            width: 70%;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .main-content h2 {
+            color: #007bff;
+        }
+
+        .main-content .actions {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .profile-card {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            max-width: 400px;
+            margin: 20px auto;
+        }
+        
+        .profile-card h2 {
+            color: #007bff;
+        }
+        
+        .profile-card p {
+            font-size: 1rem;
+            margin: 10px 0;
+        }
+        
+        .profile-card .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        
+        .profile-card .btn:hover {
+            background-color: #0056b3;
+        }
+
+        .action-card {
+            width: 45%;
+            background-color: #f7f7f7;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .action-card a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        .action-card a:hover {
+            color: #0056b3;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+  
