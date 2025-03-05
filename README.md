@@ -21,3 +21,11 @@ ADMIN LOGIN PASSWORD : admin@gmail.com
  #Admin-Dashboard
  ![image](https://github.com/user-attachments/assets/8954bc46-09ea-475c-8d5d-744495261f79)
 
+ #User-Dashboard
+ ![image](https://github.com/user-attachments/assets/a7d7f384-a9e2-49b4-8033-45241c66fe9b)
+
+ #add new user
+ ![image](https://github.com/user-attachments/assets/b49558b7-0f0f-4458-ac8c-7cc1e0b2c829)
+
+
+
